@@ -1,0 +1,32 @@
+# 普通数据的配置
+name: 张三
+
+# 对象的配置
+person:
+  name: 张三
+  age: 18
+
+# 行内对象配置
+student: {name: 张三, age: 18}
+
+# 集合的配置（字符串）
+#city:
+#  - 北京
+#  - 武汉
+#  - 上海
+
+city: [北京, 武汉, 上海]
+
+# 集合的配置（对象）
+#students:
+#  - name: 张三
+#    age: 18
+#  - name: 李四
+#    age: 20
+
+students: [{name: 张三, age: 18}, {name: 李四, age: 20}]
+
+# Map配置
+map:
+  key1: value1
+  key2: value2
